@@ -36,13 +36,19 @@ scat_plot_builder <- function(pos) {
     ggplot(filtered, aes(RE24, total_def)) +  
       geom_point() +  
       geom_smooth() +  
-      geom_hline(yintercept = 0, color = "blue") -> plot  
+      geom_hline(yintercept = 0, color = "blue") + 
+      ggtitle(paste0("RE24 vs. DEF: ", pos)) + 
+      theme(plot.title = element_text(hjust = 0.5)) -> plot
+    ggsave(paste0("model_scatterplots/plot_", pos, ".pdf"), plot = plot)
     return(plot)
   } else {
     ggplot(filtered, aes(RE24, UZR_150)) +  
       geom_point() +  
       geom_smooth() +  
-      geom_hline(yintercept = 0, color = "blue") -> plot  
+      geom_hline(yintercept = 0, color = "blue")+ 
+      ggtitle(paste0("RE24 vs. UZR/150: ", pos)) +
+      theme(plot.title = element_text(hjust = 0.5)) -> plot
+    ggsave(paste0("model_scatterplots/plot_", pos, ".pdf"), plot = plot)
     return(plot)
   }
 }
@@ -68,7 +74,8 @@ residual_plots <- function(pos, data) {
   re24_300 %>% 
     filter(Position == pos) -> filtered
   
-  ggplot(data = data, aes(x = .fitted, y = .resid)) + geom_point()
+  ggplot(data = data, aes(x = .fitted, y = .resid)) + 
+    geom_point()
 }
 
 
@@ -103,7 +110,6 @@ for (p in Position) {
   all_coefs <- bind_rows(all_coefs, assign(coefs_name, get_coefs(p, model_builder(p))))
   
 }
-
 
 
 
