@@ -1,0 +1,227 @@
+"","FirstName","LastName","positions","salaries"
+"1","Starling","Marte","Center Field",11500000
+"2","Eduardo","Escobar","3rd Base",7166666
+"3","Kole","Calhoun","Right Field",6e+06
+"4","Stephen","Vogt","Catcher",2500000
+"5","Jon","Jay","Right Field",1500000
+"6","Nick","Ahmed","Shortstop",6375000
+"7","Jake","Lamb","1st Base",5515000
+"8","Freddie","Freeman","1st Base",22359375
+"9","Marcell","Ozuna","Left Field",1.8e+07
+"10","Travis","d'Arnaud","Catcher",8e+06
+"11","Tyler","Flowers","Catcher",4e+06
+"12","Nick","Markakis","Right Field",4e+06
+"13","Yonder","Alonso","1st Base",1e+06
+"14","Adeiny","Hechavarria","Shortstop",1e+06
+"15","Adam","Duvall","Right Field",3250000
+"16","Dansby","Swanson","Shortstop",3150000
+"17","Charlie","Culberson","2nd Base",1e+06
+"18","Peter","O'Brien","Right Field",563500
+"19","Chris","Davis","1st Base",21065362
+"20","Jose","Iglesias","Shortstop",2500000
+"21","Trey","Mancini","Right Field",4750000
+"22","Hanser","Alberto","2nd Base",1650000
+"23","J.D.","Martinez","Designated Hitter",23750000
+"24","Xander","Bogaerts","Shortstop",2e+07
+"25","Dustin","Pedroia","2nd Base",13125000
+"26","Mitch","Moreland","1st Base",2500000
+"27","Jackie","Bradley Jr.","Center Field",1.1e+07
+"28","Kevin","Pillar","Center Field",4250000
+"29","Andrew","Benintendi","Left Field",3400000
+"30","Jose","Peraza","2nd Base",2850000
+"31","Kevin","Plawecki","Catcher",9e+05
+"32","Jason","Heyward","Right Field",23500000
+"33","Anthony","Rizzo","1st Base",16500000
+"34","Daniel","Descalso","2nd Base",2500000
+"35","Jason","Kipnis","2nd Base",1e+06
+"36","Kris","Bryant","3rd Base",18600000
+"37","Javier","Baez","Shortstop",1e+07
+"38","Kyle","Schwarber","Left Field",7010000
+"39","Willson","Contreras","Catcher",4500000
+"40","Albert","Almora","Center Field",1575000
+"41","Steven","Souza","Right Field",1e+06
+"42","Yasmani","Grandal","Catcher",18250000
+"43","Jose","Abreu","1st Base",12666666
+"44","Edwin","Encarnacion","Designated Hitter",1.2e+07
+"45","Nomar","Mazara","Right Field",5560000
+"46","James","McCann","Catcher",5400000
+"47","Leury","Garcia","Outfielders",3250000
+"48","Cheslor","Cuthbert","3rd Base",750000
+"49","Joey","Votto","1st Base",2.5e+07
+"50","Nick","Castellanos","Right Field",1.6e+07
+"51","Mike","Moustakas","2nd Base",1.2e+07
+"52","Freddy","Galvis","Shortstop",5500000
+"53","Curt","Casali","Catcher",1462500
+"54","Carlos","Santana","1st Base",20833334
+"55","Francisco","Lindor","Shortstop",17500000
+"56","Cesar","Hernandez","2nd Base",6250000
+"57","Sandy","Leon","Catcher",2e+06
+"58","Delino","DeShields","Center Field",1875000
+"59","Tyler","Naquin","Right Field",1450000
+"60","Domingo","Santana","Right Field",1250000
+"61","Nolan","Arenado","3rd Base",3.5e+07
+"62","Charlie","Blackmon","Right Field",21333333
+"63","Ian","Desmond","Center Field",1.5e+07
+"64","Daniel","Murphy","1st Base",8e+06
+"65","Drew","Butera","Catcher",1e+06
+"66","Matt","Kemp","Left Field",1e+06
+"67","Chris","Owings","2nd Base",563500
+"68","Trevor","Story","Shortstop",9e+06
+"69","David","Dahl","Center Field",2475000
+"70","Tony","Wolters","Catcher",1900000
+"71","Miguel","Cabrera","Designated Hitter",3e+07
+"72","Jonathan","Schoop","2nd Base",6100000
+"73","Austin","Romine","Catcher",4150000
+"74","Cameron","Maybin","Right Field",1500000
+"75","Jordy","Mercer","Shortstop",1e+06
+"76","C.J.","Cron","1st Base",6100000
+"77","Jacoby","Jones","Center Field",1575000
+"78","Jose","Altuve","2nd Base",2.9e+07
+"79","Michael","Brantley","Left Field",1.6e+07
+"80","Josh","Reddick","Right Field",1.3e+07
+"81","Martin","Maldonado","Catcher",3500000
+"82","George","Springer","Center Field",2.1e+07
+"83","Carlos","Correa","Shortstop",8e+06
+"84","Aledmys","Diaz","Shortstop",2600000
+"85","Salvador","Perez","Catcher",14200000
+"86","Alex","Gordon","Left Field",4e+06
+"87","Jorge","Soler","Designated Hitter",7300000
+"88","Maikel","Franco","3rd Base",2950000
+"89","Mike","Trout","Center Field",37666667
+"90","Albert","Pujols","1st Base",2.9e+07
+"91","Anthony","Rendon","3rd Base",26071428
+"92","Justin","Upton","Left Field",2.1e+07
+"93","Andrelton","Simmons","Shortstop",1.5e+07
+"94","Jason","Castro","Catcher",6850000
+"95","Tommy","La Stella","2nd Base",3250000
+"96","Brian","Goodwin","Right Field",2200000
+"97","Max","Stassi","Catcher",8e+05
+"98","Justin","Turner","3rd Base",2e+07
+"99","A.J.","Pollock","Left Field",1.5e+07
+"100","Mookie","Betts","Right Field",2.7e+07
+"101","Cody","Bellinger","Center Field",11500000
+"102","Joc","Pederson","Left Field",7750000
+"103","Corey","Seager","Shortstop",7600000
+"104","Enrique","Hernandez","Center Field",5900000
+"105","Chris","Taylor","2nd Base",5600000
+"106","Max","Muncy","1st Base",2500000
+"107","Austin","Barnes","Catcher",1100000
+"108","Corey","Dickerson","Left Field",8e+06
+"109","Francisco","Cervelli","Catcher",2e+06
+"110","Matt","Joyce","Left Field",1500000
+"111","Sean","Rodriguez","2nd Base",1e+06
+"112","Jonathan","Villar","Center Field",8200000
+"113","Jesus","Aguilar","1st Base",2575000
+"114","Ryan","Braun","1st Base",1.7e+07
+"115","Lorenzo","Cain","Center Field",1.5e+07
+"116","Christian","Yelich","Left Field",12500000
+"117","Avisail","Garcia","Left Field",7250000
+"118","Justin","Smoak","1st Base",4e+06
+"119","Eric","Sogard","2nd Base",4e+06
+"120","Brock","Holt","2nd Base",2500000
+"121","Jedd","Gyorko","3rd Base",1e+06
+"122","Logan","Morrison","Designated Hitter",1e+06
+"123","Omar","Narvaez","Catcher",2725000
+"124","Orlando","Arcia","Shortstop",2200000
+"125","Ben","Gamel","Left Field",1400000
+"126","Ryon","Healy","1st Base",1e+06
+"127","Josh","Donaldson","3rd Base",2.1e+07
+"128","Nelson","Cruz","Designated Hitter",1.2e+07
+"129","Marwin","Gonzalez","3rd Base",9e+06
+"130","Alex","Avila","Catcher",4250000
+"131","Eddie","Rosario","Left Field",7750000
+"132","Miguel","Sano","1st Base",7e+06
+"133","Byron","Buxton","Center Field",3075000
+"134","Ehire","Adrianza","Shortstop",1600000
+"135","Yoenis","Cespedes","Center Field",29500000
+"136","Robinson","Cano","2nd Base",2.4e+07
+"137","Jed","Lowrie","2nd Base",11500000
+"138","Wilson","Ramos","Catcher",10250000
+"139","Rene","Rivera","Catcher",1e+06
+"140","Michael","Conforto","Right Field",8e+06
+"141","Jake","Marisnick","Center Field",3312500
+"142","Brandon","Nimmo","Center Field",2175000
+"143","Giancarlo","Stanton","Designated Hitter",2.6e+07
+"144","D.J.","LeMahieu","2nd Base",1.2e+07
+"145","Aaron","Hicks","Center Field",10785714
+"146","Brett","Gardner","Center Field",1e+07
+"147","Aaron","Judge","Right Field",8500000
+"148","Gary","Sanchez","Catcher",5e+06
+"149","Khris","Davis","Designated Hitter",16750000
+"150","Marcus","Semien","Shortstop",1.3e+07
+"151","Mark","Canha","Left Field",4800000
+"152","Robbie","Grossman","Outfielders",3725000
+"153","Chad","Pinder","Left Field",2025000
+"154","Bryce","Harper","Right Field",27538462
+"155","Andrew","McCutchen","Left Field",1.7e+07
+"156","Jean","Segura","2nd Base",14850000
+"157","Jay","Bruce","Right Field",1.4e+07
+"158","Didi","Gregorius","Shortstop",1.4e+07
+"159","Josh","Harrison","2nd Base",1e+06
+"160","Neil","Walker","2nd Base",1e+06
+"161","J.T.","Realmuto","Catcher",1e+07
+"162","Andrew","Knapp","Catcher",710000
+"163","Jarrod","Dyson","Center Field",2e+06
+"164","Josh","Bell","1st Base",4800000
+"165","Adam","Frazier","2nd Base",2800000
+"166","Guillermo","Heredia","Center Field",1e+06
+"167","Luke","Maile","Catcher",9e+05
+"168","J.T.","Riddle","Shortstop",850000
+"169","Erik","Gonzalez","2nd Base",725000
+"170","John","Ryan Murphy","Catcher",575000
+"171","Manny","Machado","3rd Base",3.2e+07
+"172","Wil","Myers","Left Field",22500000
+"173","Eric","Hosmer","1st Base",2.1e+07
+"174","Tommy","Pham","Left Field",7900000
+"175","Jurickson","Profar","2nd Base",5700000
+"176","Austin","Hedges","Catcher",3e+06
+"177","Greg","Garcia","2nd Base",1500000
+"178","Buster","Posey","Catcher",22177777
+"179","Brandon","Belt","1st Base",17200000
+"180","Brandon","Crawford","Shortstop",15200000
+"181","Evan","Longoria","3rd Base",1.5e+07
+"182","Wilmer","Flores","2nd Base",3e+06
+"183","Hunter","Pence","Right Field",3e+06
+"184","Pablo","Sandoval","3rd Base",2e+06
+"185","Billy","Hamilton","Center Field",1e+06
+"186","Donovan","Solano","2nd Base",1375000
+"187","Alex","Dickerson","Left Field",925000
+"188","Darin","Ruf","1st Base",563500
+"189","Kyle","Seager","3rd Base",19500000
+"190","Dee","Gordon","2nd Base",13800000
+"191","Mitch","Haniger","Right Field",3010000
+"192","Mallex","Smith","Center Field",2350000
+"193","Paul","Goldschmidt","1st Base",2.6e+07
+"194","Yadier","Molina","Catcher",2e+07
+"195","Matt","Carpenter","3rd Base",18500000
+"196","Dexter","Fowler","Right Field",16500000
+"197","Kolten","Wong","2nd Base",10250000
+"198","Brad","Miller","2nd Base",2e+06
+"199","Matt","Wieters","Catcher",2e+06
+"200","Kevin","Kiermaier","Center Field",10166666
+"201","Mike","Zunino","Catcher",4500000
+"202","Hunter","Renfroe","Right Field",3300000
+"203","Manuel","Margot","Center Field",2475000
+"204","Jose","Martinez","1st Base",2125000
+"205","Daniel","Robertson","Shortstop",1025000
+"206","Shin-Soo","Choo","Designated Hitter",2.1e+07
+"207","Elvis","Andrus","Shortstop",15250000
+"208","Robinson","Chirinos","Catcher",5750000
+"209","Todd","Frazier","3rd Base",3500000
+"210","Jeff","Mathis","Catcher",3e+06
+"211","Joey","Gallo","Right Field",4400000
+"212","Daniel","Santana","Center Field",3600000
+"213","Travis","Shaw","1st Base",4e+06
+"214","Joe","Panik","2nd Base",2850000
+"215","Brandon","Drury","3rd Base",2050000
+"216","Adam","Eaton","Right Field",9500000
+"217","Starlin","Castro","2nd Base",6e+06
+"218","Kurt","Suzuki","Catcher",6e+06
+"219","Yan","Gomes","Catcher",4e+06
+"220","Howie","Kendrick","2nd Base",4e+06
+"221","Eric","Thames","1st Base",3e+06
+"222","Asdrubal","Cabrera","3rd Base",2500000
+"223","Ryan","Zimmerman","1st Base",2e+06
+"224","Trea","Turner","Shortstop",7450000
+"225","Michael","Taylor","Center Field",3325000
+"226","Wilmer","Difo","Shortstop",1e+06
