@@ -45,7 +45,7 @@ scat_plot_builder <- function(pos) {
     ggplot(filtered, aes(RE24, UZR_150)) +  
       geom_point() +  
       geom_smooth() +  
-      geom_hline(yintercept = 0, color = "blue")+ 
+      geom_hline(yintercept = 0, color = "blue") + 
       ggtitle(paste0("RE24 vs. UZR/150: ", pos)) +
       theme(plot.title = element_text(hjust = 0.5)) -> plot
     ggsave(paste0("model_scatterplots/plot_", pos, ".pdf"), plot = plot)
@@ -61,10 +61,14 @@ residual_builder <- function(pos, linmod) {
     filter(Position == pos) -> filtered
   
   if(pos == "C") {
-    inner_join(filtered, fortify(linmod), by = c("RE24", "total_def", "salaries"))
+    filtered <- inner_join(filtered, fortify(linmod), by = c("RE24", "total_def", "salaries"))
   } else {
-    inner_join(filtered, fortify(linmod), by = c("RE24", "UZR_150", "salaries"))
+    filtered <- inner_join(filtered, fortify(linmod), by = c("RE24", "UZR_150", "salaries"))
   }
+  
+  filtered %>%
+    mutate(Over_Underpaid = case_when(.resid > 0 ~ "Overpaid", 
+                                      .resid < 0 ~ "Underpaid"))
 }
 
 
@@ -74,8 +78,15 @@ residual_plots <- function(pos, data) {
   re24_300 %>% 
     filter(Position == pos) -> filtered
   
-  ggplot(data = data, aes(x = .fitted, y = .resid)) + 
-    geom_point()
+  
+  ggplot(data = data, aes(x = .fitted, y = .resid, color = Over_Underpaid)) + 
+    geom_hline(yintercept = 0, color = "blue") + 
+    ggtitle(paste0("Fitted Salary vs. Residual: ", pos)) +
+    theme(plot.title = element_text(hjust = 0.5)) +
+    geom_point() + 
+    scale_color_manual(values = c("Overpaid" = "Red", "Underpaid" = "darkgreen")) -> residual_plot
+  ggsave(paste0("model_residual_scatterplots/residual_plot_", pos, ".pdf"), plot = residual_plot)
+  return(residual_plot)
 }
 
 
