@@ -7,6 +7,12 @@
 * Downloaded Defensive data from Fangraphs
 * Created various linear models to determine how much teams value offense (RE24) vs defense (UZR/150 or DEF) when deciding how much a player is worth
 
+### Background on Metrics used in this project
+**RE24:** https://library.fangraphs.com/misc/re24/  
+**DEF:** https://library.fangraphs.com/defense/def/  
+**UZR/150:** https://blogs.fangraphs.com/the-fangraphs-uzr-primer/  
+
+
 
 ## Code and Resources used
 **R Version:** 4.02  
@@ -18,10 +24,11 @@
 **Retrosheet PBP Scraper:** https://github.com/beanumber/baseball_R/tree/master/scripts
 
 
-## EDA
-I looked at the relationship between RE24 and DEF or UZR/150 for players by position
 
-Then I grouped players by position and looked at average RE24, average DEF or UZR/150, and average salary
+## EDA
+* I looked at the relationship between RE24 and DEF or UZR/150 for players by position
+* I only wanted to look at players that started or played in a significant portion of the season so I filtered the data to include players with at least 300 plate appearances and 300 innings played in the field   
+* Then I grouped players by position and looked at average RE24, average DEF or UZR/150, and average salary
 
 
 ## Model Building
