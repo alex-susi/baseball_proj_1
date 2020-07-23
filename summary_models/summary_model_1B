@@ -1,0 +1,21 @@
+
+Call:
+lm(formula = salaries ~ RE24 + UZR_150, data = filtered)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-15272581  -6921761    623097   6789676  16761571 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 14015293    2935027   4.775 0.000176 ***
+RE24           44790     123067   0.364 0.720384    
+UZR_150       537847     334995   1.606 0.126790    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 9162000 on 17 degrees of freedom
+Multiple R-squared:  0.1342,	Adjusted R-squared:  0.03234 
+F-statistic: 1.318 on 2 and 17 DF,  p-value: 0.2938
+

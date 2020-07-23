@@ -1,6 +1,8 @@
 library(dplyr)
 library(ggplot2)
 library(car)
+library(scales)
+library(ggrepel)
 
 model_all <- lm(salaries ~ RE24 + total_def, data = re24_300)
 summary(model_all)
@@ -68,17 +70,14 @@ residual_builder <- function(pos, linmod) {
   
   filtered %>%
     mutate(Over_Underpaid = case_when(.resid > 0 ~ "Overpaid", 
-                                      .resid < 0 ~ "Underpaid"))
+                                      .resid < 0 ~ "Underpaid"),
+           Pct_Over_Underpaid = percent(.resid/salaries))
 }
 
 
 ## ------------------------------------------------------------------------
 residual_plots <- function(pos, data) {
   # Plots residuals
-  re24_300 %>% 
-    filter(Position == pos) -> filtered
-  
-  
   ggplot(data = data, aes(x = .fitted, y = .resid, color = Over_Underpaid)) + 
     geom_hline(yintercept = 0, color = "blue") + 
     ggtitle(paste0("Fitted Salary vs. Residual: ", pos)) +
@@ -93,6 +92,9 @@ residual_plots <- function(pos, data) {
 ## ------------------------------------------------------------------------
 get_coefs <- function(pos, linmod) {
   # Returns model coefficients
+  sink(file = paste0("summary_models/summary_model_", pos))
+  print(summary(linmod))
+  sink()
   df <- data.frame(linmod$coefficients)
   df <- as.data.frame(t(df))
   `rownames<-`(df, paste0("coefs_", pos))
@@ -102,6 +104,9 @@ get_coefs <- function(pos, linmod) {
 
 ## ------------------------------------------------------------------------
 all_coefs <- data.frame()
+Position <- c('DH', '1B', '2B', 
+              'SS', '3B', 'LF', 
+              'CF', 'RF', 'C')
 for (p in Position) {
   name <- paste0("model_", p)
   assign(name, model_builder(p))
@@ -121,19 +126,6 @@ for (p in Position) {
   all_coefs <- bind_rows(all_coefs, assign(coefs_name, get_coefs(p, model_builder(p))))
   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
