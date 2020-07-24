@@ -45,3 +45,39 @@ I tried numerous different models
 
 ## Performance of Models
 <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_1B.png" width="470"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_1B.png" width="470">
+
+Formula = salaries ~ RE24 + UZR_150
+| Coefficient   | Estimate      | P-value  |
+| ------------- |:-------------:| --------:|
+| Intercept     | 14,015,293    | 0.000176 |
+| RE24          | 44,790        | 0.720384 |
+| UZR_150       | 537,847       | 0.126790 |
+
+Residual standard error: 9162000 on 17 degrees of freedom  
+Multiple R-squared:  0.1342,	Adjusted R-squared:  0.03234  
+F-statistic: 1.318 on 2 and 17 DF,  p-value: 0.2938  
+
+---
+
+<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_2B.png" width="470"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_2B.png" width="470">
+
+Formula = salaries ~ RE24 + UZR_150
+| Coefficient   | Estimate      | P-value  |
+| ------------- |:-------------:| --------:|
+| Intercept     | 7,743,945     | 0.000481 |
+| RE24          | 71,201        | 0.675788 |
+| UZR_150       | -465,276      | 0.144246 |
+
+Residual standard error: 7608000 on 16 degrees of freedom
+Multiple R-squared:  0.1432,	Adjusted R-squared:  0.03607 
+F-statistic: 1.337 on 2 and 16 DF,  p-value: 0.2905
+
+---
+
+
+
+
+
+
+
+
