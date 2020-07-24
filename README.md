@@ -40,7 +40,7 @@ I tried numerous different models
 * I then ran a separate regression for each position
 1. Catchers: *Salary = RE24 + total_def*
 2. Non-catchers: *Salary = RE24 + UZR/150*  
-
+* I decided to use separate regressions for each position 
 
 
 ## Performance of Models
