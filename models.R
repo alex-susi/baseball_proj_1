@@ -41,7 +41,7 @@ scat_plot_builder <- function(pos) {
       geom_hline(yintercept = 0, color = "blue") + 
       ggtitle(paste0("RE24 vs. DEF: ", pos)) + 
       theme(plot.title = element_text(hjust = 0.5)) -> plot
-    ggsave(paste0("model_scatterplots/plot_", pos, ".pdf"), plot = plot)
+    ggsave(paste0("model_scatterplots/plot_", pos, ".png"), plot = plot)
     return(plot)
   } else {
     ggplot(filtered, aes(RE24, UZR_150)) +  
@@ -50,7 +50,7 @@ scat_plot_builder <- function(pos) {
       geom_hline(yintercept = 0, color = "blue") + 
       ggtitle(paste0("RE24 vs. UZR/150: ", pos)) +
       theme(plot.title = element_text(hjust = 0.5)) -> plot
-    ggsave(paste0("model_scatterplots/plot_", pos, ".pdf"), plot = plot)
+    ggsave(paste0("model_scatterplots/plot_", pos, ".png"), plot = plot)
     return(plot)
   }
 }
@@ -84,7 +84,7 @@ residual_plots <- function(pos, data) {
     theme(plot.title = element_text(hjust = 0.5)) +
     geom_point() + 
     scale_color_manual(values = c("Overpaid" = "Red", "Underpaid" = "darkgreen")) -> residual_plot
-  ggsave(paste0("model_residual_scatterplots/residual_plot_", pos, ".pdf"), plot = residual_plot)
+  ggsave(paste0("model_residual_scatterplots/residual_plot_", pos, ".png"), plot = residual_plot)
   return(residual_plot)
 }
 
