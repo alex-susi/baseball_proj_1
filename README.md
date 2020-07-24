@@ -34,11 +34,11 @@
 ## Model Building
 I tried numerous different models
 * I first ran a regression with all positions grouped together  
-*Salary = RE24 + total_def*
+*Salary = RE24 + DEF*
 * I then ran a regression with Position as a categorical variable  
-*Salary = RE24 + total_def + position*
+*Salary = RE24 + DEF + position*
 * I then ran a separate regression for each position
-1. Catchers: *Salary = RE24 + total_def*
+1. Catchers: *Salary = RE24 + DEF*
 2. Non-catchers: *Salary = RE24 + UZR/150*  
 * I decided to use separate regressions for each position 
 
