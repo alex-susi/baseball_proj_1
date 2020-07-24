@@ -26,7 +26,7 @@
 
 
 ## EDA
-* I looked at the relationship between RE24 and DEF or UZR/150 for players by position
+* I looked at the relationship between RE24 and DEF (Catchers) or UZR/150 (non-Catchers) for players grouped by position
 * I only wanted to look at players that started or played in a significant portion of the season so I filtered the data to include players with at least 300 plate appearances and 300 innings played in the field   
 * Then I grouped players by position and looked at average RE24, average DEF or UZR/150, and average salary
 
@@ -40,7 +40,7 @@ I tried numerous different models
 * I then ran a separate regression for each position
 1. Catchers: *Salary = RE24 + DEF*
 2. Non-catchers: *Salary = RE24 + UZR/150*  
-* I decided to use separate regressions for each position 
+* I decided to use separate regressions for each position, since teams may care more about offense for some positions and more about defense for others   
 
 
 ## Performance of Models
