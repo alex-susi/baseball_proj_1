@@ -39,5 +39,11 @@ I tried numerous different models
 *Salary = RE24 + total_def + position*
 * I then ran a separate regression for each position
 1. Catchers: *Salary = RE24 + total_def*
-2. Non-catchers: *Salary = RE24 + UZR/150*
+2. Non-catchers: *Salary = RE24 + UZR/150*  
+
+
+
+## Performance of Models
+![alt text](https://github.com/alex-susi/baseball_proj_1/tree/master/model_scatterplots/plot_1B.pdf "Salary by Position")
+
 
