@@ -68,9 +68,9 @@ Formula = salaries ~ RE24 + UZR_150
 | RE24          | 71,201        | 0.675788 |
 | UZR_150       | -465,276      | 0.144246 |
 
-Residual standard error: 7608000 on 16 degrees of freedom
-Multiple R-squared:  0.1432,	Adjusted R-squared:  0.03607 
-F-statistic: 1.337 on 2 and 16 DF,  p-value: 0.2905
+Residual standard error: 7608000 on 16 degrees of freedom  
+Multiple R-squared:  0.1432,	Adjusted R-squared:  0.03607  
+F-statistic: 1.337 on 2 and 16 DF,  p-value: 0.2905  
 
 ---
 
