@@ -44,6 +44,5 @@ I tried numerous different models
 
 
 ## Performance of Models
-![alt text](https://github.com/alex-susi/baseball_proj_1/tree/master/model_scatterplots/plot_1B.pdf "Salary by Position")
-
-
+<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_1B.png" width="500">
+<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_1B.png" width="500">
