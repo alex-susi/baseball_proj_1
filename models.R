@@ -4,6 +4,8 @@ library(car)
 library(scales)
 library(ggrepel)
 
+re24_300 <- read.csv("RE24_300.csv")
+
 model_all <- lm(salaries ~ RE24 + total_def, data = re24_300)
 summary(model_all)
 
@@ -40,7 +42,9 @@ scat_plot_builder <- function(pos) {
       geom_smooth() +  
       geom_hline(yintercept = 0, color = "blue") + 
       ggtitle(paste0("RE24 vs. DEF: ", pos)) + 
-      theme(plot.title = element_text(hjust = 0.5)) -> plot
+      theme(plot.title = element_text(hjust = 0.5)) +
+      geom_text(aes(label = paste0(nameFirst, " ", nameLast)), 
+                size = 3, check_overlap = TRUE) -> plot
     ggsave(paste0("model_scatterplots/plot_", pos, ".png"), plot = plot)
     return(plot)
   } else {
@@ -49,7 +53,10 @@ scat_plot_builder <- function(pos) {
       geom_smooth() +  
       geom_hline(yintercept = 0, color = "blue") + 
       ggtitle(paste0("RE24 vs. UZR/150: ", pos)) +
-      theme(plot.title = element_text(hjust = 0.5)) -> plot
+      theme(plot.title = element_text(hjust = 0.5)) +
+      geom_text(aes(label = paste0(nameFirst, " ", nameLast)), 
+                size = 3, check_overlap = TRUE, 
+                vjust="inward", hjust="inward") -> plot
     ggsave(paste0("model_scatterplots/plot_", pos, ".png"), plot = plot)
     return(plot)
   }
@@ -68,22 +75,31 @@ residual_builder <- function(pos, linmod) {
     filtered <- inner_join(filtered, fortify(linmod), by = c("RE24", "UZR_150", "salaries"))
   }
   
-  filtered %>%
+  filtered <- filtered %>%
     mutate(Over_Underpaid = case_when(.resid > 0 ~ "Overpaid", 
                                       .resid < 0 ~ "Underpaid"),
-           Pct_Over_Underpaid = percent(.resid/salaries))
+           Pct_Over_Underpaid = percent(.resid/salaries),
+           Real_Salary_Millions = salaries/1000000,
+           Fitted_Millions = .fitted/1000000,
+           Resid_Millions = .resid/1000000)
+  write.csv(filtered, file = paste0("residual_data/residuals_", pos, ".csv"))
+  return(filtered)
 }
 
 
 ## ------------------------------------------------------------------------
 residual_plots <- function(pos, data) {
   # Plots residuals
-  ggplot(data = data, aes(x = .fitted, y = .resid, color = Over_Underpaid)) + 
+  ggplot(data = data, aes(x = Fitted_Millions, y = Resid_Millions, color = Over_Underpaid)) + 
     geom_hline(yintercept = 0, color = "blue") + 
-    ggtitle(paste0("Fitted Salary vs. Residual: ", pos)) +
-    theme(plot.title = element_text(hjust = 0.5)) +
+    ggtitle(paste0(pos, " Fitted Salary vs. Residual in $ millions"), 
+            subtitle = "(Real Salary)") +
+    theme(plot.title = element_text(hjust = 0.5),
+          plot.subtitle = element_text(hjust = 0.5)) +
     geom_point() + 
-    scale_color_manual(values = c("Overpaid" = "Red", "Underpaid" = "darkgreen")) -> residual_plot
+    scale_color_manual(values = c("Overpaid" = "Red", "Underpaid" = "darkgreen")) + 
+    geom_text(aes(label = paste0(nameFirst, " ", nameLast, " \n (", Real_Salary_Millions, ")")), 
+              size = 3, check_overlap = FALSE, vjust="inward", hjust="inward") -> residual_plot
   ggsave(paste0("model_residual_scatterplots/residual_plot_", pos, ".png"), plot = residual_plot)
   return(residual_plot)
 }
