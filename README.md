@@ -40,7 +40,7 @@ I tried numerous different models
 * I then ran a separate regression for each position
 1. Catchers: *Salary = RE24 + DEF*
 2. Non-catchers: *Salary = RE24 + UZR/150*  
-* I decided to use separate regressions for each position, since teams may care more about offense for some positions and more about defense for others   
+* I decided to use separate regressions for each position, since teams may care more about offensive production (RE24) for some positions and more about defensive production (DEF and UZR/150) for others   
 
 
 ## Performance of Models
