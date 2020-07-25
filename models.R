@@ -44,7 +44,8 @@ scat_plot_builder <- function(pos) {
       ggtitle(paste0("RE24 vs. DEF: ", pos)) + 
       theme(plot.title = element_text(hjust = 0.5)) +
       geom_text(aes(label = paste0(nameFirst, " ", nameLast)), 
-                size = 3, check_overlap = TRUE) -> plot
+                size = 3, check_overlap = TRUE,
+                vjust="inward", hjust="inward") -> plot
     ggsave(paste0("model_scatterplots/plot_", pos, ".png"), plot = plot)
     return(plot)
   } else {
