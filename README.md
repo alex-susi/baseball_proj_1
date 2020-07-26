@@ -45,7 +45,7 @@ I tried numerous different models
 
 # Performance of Models
 ## 1B
-<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_1B.png" width="420"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_1B.png" width="420">
+<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_1B.png" width="410"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_1B.png" width="410">
 
 Formula = salaries ~ RE24 + UZR_150
 | Coefficient   | Estimate      | P-value  |
