@@ -60,7 +60,7 @@ F-statistic: 1.318 on 2 and 17 DF,  p-value: 0.2938
 
 ---
 ## 2B
-<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_2B.png" width="470"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_2B.png" width="470">
+<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_2B.png" width="410"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_2B.png" width="410">
 
 Formula = salaries ~ RE24 + UZR_150
 | Coefficient   | Estimate      | P-value  |
@@ -75,7 +75,7 @@ F-statistic: 1.337 on 2 and 16 DF,  p-value: 0.2905
 
 ---
 ## SS
-<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_SS.png" width="470"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_SS.png" width="470">
+<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_SS.png" width="410"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_SS.png" width="410">
 
 Formula = salaries ~ RE24 + UZR_150
 | Coefficient   | Estimate      | P-value  |
@@ -90,7 +90,7 @@ F-statistic: 2.079 on 2 and 14 DF,  p-value: 0.1619
 
 ---
 ## 3B
-<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_3B.png" width="470"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_3B.png" width="470">
+<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_3B.png" width="410"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_3B.png" width="410">
 
 Formula = salaries ~ RE24 + UZR_150
 | Coefficient   | Estimate      | P-value  |
@@ -105,7 +105,7 @@ F-statistic: 5.552 on 2 and 13 DF,  p-value: 0.01807
 
 ---
 ## LF
-<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_LF.png" width="470"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_LF.png" width="470">
+<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_LF.png" width="410"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_LF.png" width="410">
 
 Formula = salaries ~ RE24 + UZR_150
 | Coefficient   | Estimate      | P-value  |
@@ -121,7 +121,7 @@ F-statistic: 1.023 on 2 and 12 DF,  p-value: 0.3887
 
 ---
 ## CF
-<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_CF.png" width="470"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_CF.png" width="470">
+<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_CF.png" width="410"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_CF.png" width="410">
 
 Formula = salaries ~ RE24 + UZR_150
 | Coefficient   | Estimate      | P-value  |
@@ -136,7 +136,7 @@ F-statistic: 9.504 on 2 and 17 DF,  p-value: 0.001696
 
 ---
 ## RF
-<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_RF.png" width="470"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_RF.png" width="470">
+<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_RF.png" width="410"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_RF.png" width="410">
 
 Formula = salaries ~ RE24 + UZR_150
 | Coefficient   | Estimate      | P-value  |
@@ -151,7 +151,7 @@ F-statistic: 5.092 on 2 and 13 DF,  p-value: 0.02328
 
 ---
 ## C
-<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_C.png" width="470"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_C.png" width="470">
+<img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_C.png" width="410"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_C.png" width="410">
 
 Formula = salaries ~ RE24 + DEF
 | Coefficient   | Estimate      | P-value  |
