@@ -29,8 +29,9 @@
 * I looked at the relationship between RE24 and DEF (Catchers) or UZR/150 (non-Catchers) for players grouped by position
 * I only wanted to look at players that started or played in a significant portion of the season so I filtered the data to include players with at least 300 plate appearances and 300 innings played in the field   
 * Then I grouped players by position and looked at average RE24, average DEF or UZR/150, and average salary
+
 | Postition | N  | Avg Salary | Avg RE24 | Avg DEF |
-| --------- |:--:| ----------:| --------:| -------:|
+| --------- |:--:| :---------:| :-------:| -------:|
 | 1B        | 20 | 13,256,236 | 15.96    | -8.61   |
 | 2B        | 19 | 7,992,105  | -1.26    | 1.12    |
 | SS        | 17 | 10,101,470 | 5.89     | 7.85    | 
