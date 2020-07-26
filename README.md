@@ -59,6 +59,7 @@ Multiple R-squared:  0.1342,	Adjusted R-squared:  0.03234
 F-statistic: 1.318 on 2 and 17 DF,  p-value: 0.2938  
 
 ---
+---
 ## 2B
 <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_2B.png" width="410"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_2B.png" width="410">
 
@@ -73,6 +74,7 @@ Residual standard error: 7608000 on 16 degrees of freedom
 Multiple R-squared:  0.1432,	Adjusted R-squared:  0.03607  
 F-statistic: 1.337 on 2 and 16 DF,  p-value: 0.2905  
 
+---
 ---
 ## SS
 <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_SS.png" width="410"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_SS.png" width="410">
@@ -89,6 +91,7 @@ Multiple R-squared:  0.229,	Adjusted R-squared:  0.1189
 F-statistic: 2.079 on 2 and 14 DF,  p-value: 0.1619  
 
 ---
+---
 ## 3B
 <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_3B.png" width="410"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_3B.png" width="410">
 
@@ -103,6 +106,7 @@ Residual standard error: 8683000 on 13 degrees of freedom
 Multiple R-squared:  0.4607,	Adjusted R-squared:  0.3777  
 F-statistic: 5.552 on 2 and 13 DF,  p-value: 0.01807  
 
+---
 ---
 ## LF
 <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_LF.png" width="410"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_LF.png" width="410">
@@ -120,6 +124,7 @@ F-statistic: 1.023 on 2 and 12 DF,  p-value: 0.3887
  
 
 ---
+---
 ## CF
 <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_CF.png" width="410"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_CF.png" width="410">
 
@@ -135,6 +140,7 @@ Multiple R-squared:  0.5279,	Adjusted R-squared:  0.4723
 F-statistic: 9.504 on 2 and 17 DF,  p-value: 0.001696  
 
 ---
+---
 ## RF
 <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_RF.png" width="410"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_RF.png" width="410">
 
@@ -149,6 +155,7 @@ Residual standard error: 7244000 on 13 degrees of freedom
 Multiple R-squared:  0.4392,	Adjusted R-squared:  0.353   
 F-statistic: 5.092 on 2 and 13 DF,  p-value: 0.02328  
 
+---
 ---
 ## C
 <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_scatterplots/plot_C.png" width="410"> <img src="https://github.com/alex-susi/baseball_proj_1/blob/master/model_residual_scatterplots/residual_plot_C.png" width="410">
