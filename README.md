@@ -54,6 +54,8 @@ I tried numerous different models
 1. Catchers: *Salary = RE24 + DEF*
 2. Non-catchers: *Salary = RE24 + UZR/150*  
 * I decided to use separate regressions for each position, since teams may care more about offensive production (RE24) for some positions and more about defensive production (DEF and UZR/150) for others   
+* I used UZR/150 for non-catchers since the metric compares players to others that play the same position
+* Catchers do not have an UZR/150 so I used DEF for their model
 
 
 # Performance of Models
