@@ -194,7 +194,11 @@ F-statistic: 1.583 on 2 and 14 DF,  p-value: 0.2399
 
 
 # Conclusions and Future Steps
+* While many of the models aren't statistically significant, it is clear that teams value offense more from certain positions (RF, CF, 3B) and value defense more from others (C, 1B)  
+* The low R-squared values indicate that teams aren't necessarily paying players solely based on their RE24 and UZR/150 or DEF
+* While these metrics are one way of valuing players, there are many other stats that teams look at for determining a player's worth (WAR, wOBA, wRC, DRS, etc.)
 * Future steps could include more variables such as age, recent awards won, and off-field components such as merchandise and ticket revenue brought in by the player (mainly useful for superstars)
+* One final point to make note of is that this model consistently claims that many highly paid players are not worth the large, lengthy contracts they recieve. Older players still on larger contracts such as Albert Pujols and Robinson Cano are some of the most overpaid players according to the models. While Pujols and Cano were both elite talents in their primes, they have since regressed significantly while still making $29 and $24 million respectively in 2020. This could be an indicator that those long lucrative contracts extending well into a player's late 30s or early 40s are rarely worth it, and teams might be better off with shorter contracts to their superstar players, especially since you need a well-rounded roster to compete in the MLB 
 
 
 
