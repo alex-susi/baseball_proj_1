@@ -84,7 +84,7 @@ re24_300 %>%
             Avg_def = mean(total_def)) %>%
   filter(Position != "NA") -> cluster_summary
 
-
+write.csv(cluster_summary, file = "cluster_summary.csv")
 
 
 
