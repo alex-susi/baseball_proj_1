@@ -6,6 +6,7 @@
 * Scraped play-by-play data from Retrosheet to calculate RE24 for all batters in the 2019 season
 * Downloaded Defensive data from Fangraphs
 * Created various linear models to determine how much teams value offense (RE24) vs defense (UZR/150 or DEF) when deciding how much a player is worth
+* These models can be used to determine a player's value on the open market based on their position, as well as their offensive and defensive skills
 
 ### Background on Metrics used in this project
 **RE24:** https://library.fangraphs.com/misc/re24/  
@@ -192,7 +193,8 @@ F-statistic: 1.583 on 2 and 14 DF,  p-value: 0.2399
 ---
 
 
-
+# Conclusions and Future Steps
+* Future steps could include more variables such as age, recent awards won, and off-field components such as merchandise and ticket revenue brought in by the player (mainly useful for superstars)
 
 
 
