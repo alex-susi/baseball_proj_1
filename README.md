@@ -28,7 +28,7 @@
 
 ## [EDA](https://github.com/alex-susi/baseball_proj_1/blob/master/EDA.R)
 * I looked at the relationship between RE24 and DEF (Catchers) or UZR/150 (non-Catchers) for players grouped by position
-* I only wanted to look at players that started or played in a significant portion of the season so I filtered the data to include players with at least 300 plate appearances and 300 innings played in the field   
+* I only wanted to look at players that started games or played in a significant portion of the season, so I filtered the data to include players with at least 300 plate appearances and 300 innings played in the field   
 * Then I grouped players by position and looked at average RE24, average DEF, and average salary to get a general idea of which positions are generally better on offense and defense, and which positions typically get paid more 
 
 | Postition | N  | Avg Salary | Avg RE24 | Avg DEF |
