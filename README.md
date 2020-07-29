@@ -3,7 +3,7 @@
 ## Project Overview
 * First baseball project analyzing the relationship between Run Expectancy per the 24 different base states (RE24), Ultimate Zone Rating per 150 games (UZR/150) for non-catchers, Defensive Runs Above Average (DEF) for catchers, and Salary
 * [Scraped 2020 salary data](https://github.com/alex-susi/baseball_proj_1/blob/master/salary_scraper.R) from spotrac.com, looking at veteran and arbitration contracts (only players that have already signed/negotiated contracts)
-* [Scraped play-by-play data from Retrosheet](https://github.com/alex-susi/baseball_proj_1/blob/master/parse_retrosheet_pbp.R) to [calculate RE24](https://github.com/alex-susi/baseball_proj_1/blob/master/RE24.R) for all batters in the 2019 season  
+* [Scraped Retrosheet play-by-play data](https://github.com/alex-susi/baseball_proj_1/blob/master/parse_retrosheet_pbp.R) to [calculate RE24](https://github.com/alex-susi/baseball_proj_1/blob/master/RE24.R) for all batters in the 2019 season  
 * Downloaded Defensive data from Fangraphs
 * [Created various linear models](https://github.com/alex-susi/baseball_proj_1/blob/master/models.R) to determine how much teams value offense (RE24) vs defense (UZR/150 or DEF) when deciding how much a player is worth
 * These models can be used to determine a player's value on the open market based on their offensive and defensive skills, as well as their position
