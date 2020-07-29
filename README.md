@@ -2,11 +2,11 @@
 
 ## Project Overview
 * First baseball project analyzing the relationship between Run Expectancy per the 24 different base states (RE24), Ultimate Zone Rating per 150 games (UZR/150) for non-catchers, Defensive Runs Above Average (DEF) for catchers, and Salary
-* Scraped 2020 salary data from spotrac.com, looking at veteran and arbitration contracts (only players that have already signed/negotiated contracts)
-* Scraped play-by-play data from Retrosheet to calculate RE24 for all batters in the 2019 season
+* [Scraped 2020 salary data](https://github.com/alex-susi/baseball_proj_1/blob/master/salary_scraper.R) from spotrac.com, looking at veteran and arbitration contracts (only players that have already signed/negotiated contracts)
+* [Scraped play-by-play data from Retrosheet](https://github.com/alex-susi/baseball_proj_1/blob/master/parse_retrosheet_pbp.R) to [calculate RE24](https://github.com/alex-susi/baseball_proj_1/blob/master/RE24.R) for all batters in the 2019 season  
 * Downloaded Defensive data from Fangraphs
-* Created various linear models to determine how much teams value offense (RE24) vs defense (UZR/150 or DEF) when deciding how much a player is worth
-* These models can be used to determine a player's value on the open market based on their position, as well as their offensive and defensive skills
+* [Created various linear models](https://github.com/alex-susi/baseball_proj_1/blob/master/models.R) to determine how much teams value offense (RE24) vs defense (UZR/150 or DEF) when deciding how much a player is worth
+* These models can be used to determine a player's value on the open market based on their offensive and defensive skills, as well as their position
 
 ### Background on Metrics used in this project
 **RE24:** https://library.fangraphs.com/misc/re24/  
@@ -26,7 +26,7 @@
 
 
 
-## EDA
+## [EDA](https://github.com/alex-susi/baseball_proj_1/blob/master/EDA.R)
 * I looked at the relationship between RE24 and DEF (Catchers) or UZR/150 (non-Catchers) for players grouped by position
 * I only wanted to look at players that started or played in a significant portion of the season so I filtered the data to include players with at least 300 plate appearances and 300 innings played in the field   
 * Then I grouped players by position and looked at average RE24, average DEF, and average salary to get a general idea of which positions are generally better on offense and defense, and which positions typically get paid more 
